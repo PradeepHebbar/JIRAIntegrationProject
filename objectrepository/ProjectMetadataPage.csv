@@ -1,0 +1,8 @@
+1,ProjectMetadataPage,ProjectMetadataTab,xpath,//span[text()='Project Metadata Details']
+2,ProjectMetadataPage,MetadataPage,xpath,//*[contains(text(),'Metadata Completion Details')]
+3,ProjectMetadataPage,ProjectID,xpath,//span[@id='cba63854-2815-46be-ba92-724feae509ae']/span
+4,ProjectMetadataPage,ProjectName,xpath,//*[contains(text(),'Project:')]/following::span[1]/span/span
+5,ProjectMetadataPage,PropertyNameColumn,xpath,//*[contains(text(),'Property_Name')]
+6,ProjectMetadataPage,MandatoryColumn,xpath,//*[contains(text(),'Mandatory')]
+7,ProjectMetadataPage,CompleteColumn,xpath,//div[contains(text(),'Complete')]
+3,ProjectMetadataPage,ProjectIDVal,xpath,//*[text()='Projectid']/following::span[1]/span/span[text="1111"]

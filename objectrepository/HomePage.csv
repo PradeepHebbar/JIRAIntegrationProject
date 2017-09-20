@@ -1,0 +1,29 @@
+1,HomePage,TibcSpotfireLogo,xpath,//div[@class='header-site-header__logo-wrapper'],
+2,HomePage,BrowseTab,xpath,//a[contains(text(),'Browse')]
+3,HomePage,SearchTextBox,xpath,//div[contains(@class,'container container-customized container-customized-menubar ng-scope')]//input[@id='globalSearchText']
+4,HomePage,SearchButton,xpath,"//div[contains(@class,'container container-customized container-customized-menubar ng-scope')]//input[@id='globalSearchText']/following::span[contains(@class,'input-group-addon form-control-radius')]",
+5,HomePage,SearchResult,xpath,//span[contains(text(),'Activity_Report_022717-Modified-Feb27')]
+6,HomePage,searchIcon,xpath,"//*[@id=""library-navbar""]/div[5]/div[2]/div/div[1]/div[3]/div/div[2]/div[1]/img",
+5,HomePage,SearchResultParm,xpath,//span[contains(text(),$$$)]
+5,HomePage,Library,xpath,//*[@title='Library'][contains(text(),'Library')]
+5,HomePage,Organization,xpath,//*[@title='Organization'][contains(text(),'Organization')]
+5,HomePage,EnterpriseServices,xpath,//*[@title='Enterprise Services'][contains(text(),'Enterprise Services')]
+5,HomePage,EIM,xpath,//*[@title='EIM'][contains(text(),'EIM')]
+5,HomePage,RealWorld,xpath,//*[@title='Real World'][contains(text(),'Real World')]
+5,HomePage,Production,xpath,//*[@title='Production'][contains(text(),'Production')]
+5,HomePage,Shared,xpath,//*[@title='Shared'][contains(text(),'Shared')]
+5,HomePage,DEV,xpath,//*[@title='DEV'][contains(text(),'DEV')]
+5,HomePage,TST,xpath,//*[@title='TST'][contains(text(),'TST')]
+5,HomePage,UAT,xpath,//*[@title='UAT'][contains(text(),'UAT')]
+5,HomePage,OBIV1,xpath,//*[@title='OBI-V1.0'][contains(text(),'OBI-V1.0')]
+5,HomePage,DXPs,xpath,//*[@title='DXPs'][contains(text(),'DXPs')]
+5,HomePage,DXPsBackup,xpath,//*[@title='DXPs Backup'][contains(text(),'DXPs Backup')]
+5,HomePage,Report_OBI,xpath,//*[contains(text(),'Real_World_OBI')]
+5,HomePage,DateSelection,xpath,//div[@class='sf-element-dropdown'],
+5,HomePage,EditButton,xpath,//div[text()='Edit'],
+5,HomePage,EditPopupOkButton,xpath,"//button[@class=""sf-element-button""]",
+5,HomePage,SaveButton,xpath,"//div[@class=""ToolBarButtonText""][text()=""Save""]",
+5,HomePage,SavePopUpOkButton,xpath,"//button[@class=""sf-element-button""]",
+5,HomePage,SubmenuSaveButton,xpath,"//div[@class=""contextMenuItemLabel""][text()=""Save""]",
+5,HomePage,PopUpSaveButton,xpath,"//span[@class=""overflow-modified ng-binding""][text()=""Save""]",
+5,HomePage,latestDate,xpath,(//div[contains(@class,sf-element-dropdown-list-item)])[last()]

@@ -1,0 +1,7 @@
+1,AmazonLoginPage,SignInMenu,xpath,//div[@id='nav-tools']//a[@id='nav-link-yourAccount']
+2,AmazonLoginPage,SignInBtn,xpath,//div[@class='nav-flyout-content']//span[text()='Sign in']
+3,AmazonLoginPage,UserNameTxtBox,xpath,//input[@name='email']
+4,AmazonLoginPage,PasswordTxtBox,xpath,//input[@name='password']
+5,AmazonLoginPage,LoginBtn,xpath,//input[@id='signInSubmit']
+6,AmazonLoginPage,AlertMSg,xpath,//div[@class='a-alert-content']//span
+3,AmazonLoginPage,UserNameTxtBox1,xpath,//input[@name='email1']

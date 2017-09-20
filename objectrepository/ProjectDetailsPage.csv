@@ -1,0 +1,13 @@
+1,ProjectDetailsPage,ProjectDetailTab,xpath,//span[text()='Project Details']
+2,ProjectDetailsPage,ProjectDetailTabLink,xpath,//span[text()='Project Details']
+2,ProjectDetailsPage,clearFilter,xpath,//input[@value='Clear Filters']
+4,ProjectDetailsPage,ProjectStatus,xpath,//*[text()='Project Status']
+5,ProjectDetailsPage,ProjectStatusValue,xpath,//tr/td//*[text()='Project Status']/following::tr//span
+6,ProjectDetailsPage,StartDate,xpath,//*[text()='Start Date']
+7,ProjectDetailsPage,StartDateValue,xpath,//*[text()='Start Date']/following::tr
+8,ProjectDetailsPage,DaysinProgress,xpath,//*[contains(text(),'Days in Progress')]
+8,ProjectDetailsPage,DaysinProgressValue,xpath,//*[contains(text(),'Days in Progress')]/following::tr[1]//span/span/span
+8,ProjectDetailsPage,TargetcompletionDate,xpath,//*[text()='Target completion Date']
+9,ProjectDetailsPage,TargetcompletionDateValue,xpath,//*[text()='Target completion Date']/following::tr[1]//span
+10,ProjectDetailsPage,DaystoTarget,xpath,//*[text()='Days to Target']
+11,ProjectDetailsPage,DaystoTargetValue,xpath,//*[text()='Days to Target']/following::tr//span

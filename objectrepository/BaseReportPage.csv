@@ -1,0 +1,3 @@
+2,BaseReportPage,ProjectOverViewLink,xpath,//a[contains(text(),'Projects Overview')]
+2,BaseReportPage,ProjectSummariesLink,xpath,//a[contains(text(),'Project Summaries')]
+2,BaseReportPage,ProjectDetailsLink,xpath,//a[contains(text(),'Project Details')]
